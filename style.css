@@ -5,7 +5,9 @@
 }
 
 body {
-    display: flex;
+    display: contents;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
 }
 
 .main { 
@@ -101,8 +103,19 @@ a {
 
 .first__inside__box {
     border: 1px solid black;
+    width: 60%;
+    /* image-resolution: 60px; */
 }
 
-.first__inside__box2 {
+.second__inside__box {
     border: 1px solid black;
+    /* display: flex;
+    flex-direction: ;
+    justify-content: space-between; */
+}
+
+.all-box {
+    border: 1px solid gray;
+    padding: 3px;
+    margin-bottom: 6px;
 }
