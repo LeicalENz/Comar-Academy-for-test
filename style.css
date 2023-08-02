@@ -44,12 +44,12 @@ h4 {
 }
 
 .coma-text-logo1 {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 40px
 }
 
 .coma-text-logo2 {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
     color:  rgb(190, 190, 190);
 }
@@ -60,8 +60,9 @@ p {
 }
 
 .logo__con {
-    display: flex;
     margin-left: 24px;
+    height: 32px;
+    align-items: center;
 }
 
 .second__text {
@@ -134,6 +135,9 @@ p {
     margin-top: 32px;
     margin-bottom: 32px;
     margin-right: 72px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
 }
 
 .card {
@@ -195,7 +199,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .register {
@@ -206,5 +209,9 @@ footer {
 }
 
 @media screen and (max-width: 426px) {
+    .largest__box {
+        flex-direction: column;
+    }
+
 
 }
