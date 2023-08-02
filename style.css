@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.main { 
+
+}
+
+.h1.h2,h3 {
+    color: #1f1d1d;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    color: #1f1d1d;
+}
+
+.menu__right__side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 24px;
+    gap: 16px;
+    list-style: none;
+}
+
+.hero {
+    border: 1px solid black;
+    background-color: rgb(190, 190, 190);
+}
+
+.information {
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+.course {
+    border: 1px solid black;
+    background-color: rgb(190, 190, 190);
+}
+
+.thesis {
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+.largest__box {
+    border: 1px solid red;
+    margin-left: 24px
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+
+.sizing-for-card {
+    border: 1px solid red;
+    margin-left: 72px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-bottom: 72px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: fit-content;
+    margin: 8px;
+    border: 1px solid rgb(33, 20, 220);
+    background-color: #ffffff;
+}
+
+.card__info {
+    margin: 16px 0 8px 16px;
+    row-gap: 8px;
+
+}
+
+.card img {
+    padding: auto;
+    width: 100%;
+}
+
+.first__inside__box {
+    border: 1px solid black;
+}
+
+.first__inside__box2 {
+    border: 1px solid black;
+}
